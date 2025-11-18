@@ -24,7 +24,5 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm ci
-      - run: npm --depth 9999 update
-      - run: npm test
         env:
           CI: true
